@@ -1,0 +1,146 @@
+.player-round-result{
+    font-size: 35px;
+    display: flex;
+    color:#FFFFFF;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.15;
+    margin-top: auto;
+    background-image: url("../../images/cow.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE 10+ */
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+
+.Player-round-result-header{
+    padding-top: calc(5px + 2vh);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    /* padding-left: calc(100px + 1vw);  */
+    font-size: calc(20px + 2vw);
+    color: white;
+    line-height: 2;
+    font-family: warden;
+    font-weight: bold;
+  }
+
+.results-header{
+    font-size: 45px;
+    padding-bottom: 60px;
+}
+
+.waiting-message{
+    padding-top: 50px;
+    font-size: 25px;
+}
+
+.player-round-result::-webkit-scrollbar{
+    display: none;
+}
+
+
+.transparency-prr{
+    background-color:rgba(78, 91, 95, 0.548);
+    margin-left: 5%;
+    margin-right:5%;
+}
+.table {
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    border-collapse: collapse;
+    border: 3px solid #ddd;
+    margin-left: auto; 
+    margin-right: auto;
+    background-color:#f2f2f2;
+    table-layout:fixed;
+    width:100%;
+}
+  
+  .table td {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 3px;
+}
+  
+  
+  
+  .table tbody {
+    font-size: 20px;
+    text-align: center;
+}
+  
+  
+  .table th,
+  .table thead {
+    background-color: #f2f2f2;
+    padding: 3px;
+    text-align: center;
+    color: black;
+    border: 1px solid #ddd;
+ }
+  .table tr:hover {
+    background-color:lightgray;
+}
+
+@media 
+  only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px)  {
+  
+      /* Force table to not be like tables anymore */
+      table, thead, tbody, th, td, tr { 
+          display: block; 
+      }
+      
+      /* Hide table headers (but not display: none;, for accessibility) */
+      thead tr{ 
+          position: absolute;
+          top: -9999px;
+          left: -9999px;
+      }
+      
+      tr { border: 1px solid #ccc; }
+      
+      td { 
+          /* Behave  like a "row" */
+          border: none;
+          border-bottom: 1px solid #eee; 
+          position: relative;
+          padding-left: 50%; 
+      }
+      
+      td:before { 
+          /* Now like a table header */
+          
+          /* Top/left values mimic padding */
+          top: 6px;
+          left: 6px;
+          width: 45%; 
+          padding-right: 10px; 
+          white-space: nowrap;
+      }
+      
+      /*
+      Label the data
+      */
+      /* td:nth-of-type(1):before { content: "Round"; } */
+      td:nth-of-type(2):before { content: "Farming"; }
+      td:nth-of-type(3):before { content: "Pasturing"; }
+      td:nth-of-type(4):before { content: "Reserve"; }
+      td:nth-of-type(5):before { content: "Round Score"; }
+      .table{
+          height: 30em;
+          overflow-y: scroll;
+      }
+  }
+
+  
+
+
+

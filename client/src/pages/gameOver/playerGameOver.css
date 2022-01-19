@@ -1,0 +1,99 @@
+@font-face{
+  font-family: warden;
+  src: url("../../fonts/Warden\ Typeface.otf");
+}
+
+.home {
+    color: mediumseagreen
+    
+}
+
+.game-over{
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 25px;
+  color: white;
+  line-height: 2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+
+
+}
+
+.game-end-text{
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding-top: 25px;
+  align-items: center;
+}
+
+.over-contents {
+
+  display: flex;
+  flex-direction: column;
+  align-items: top;
+  justify-content: center;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 200px;
+}
+.counter{
+
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.over-header {
+  padding-top: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  /* padding-left: calc(100px + 1vw);  */
+  font-size: 1.75em;
+  color: white;
+  line-height: 2;
+  font-family: warden;
+  font-weight: bold;
+ 
+}
+.over-text{
+
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(15px + 1vw);
+  color: white;
+  line-height: 2;
+  font-family: sans-serif;
+  padding-bottom: 30px;
+  
+}
+
+.homeButton{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+
+.pgo-transparent-box{
+  background-color:rgba(78, 91, 95, 0.548);
+  margin-top:auto;
+    margin-left: 35px;
+    margin-right: 35px;
+    padding-left: 35px;
+    padding-right: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

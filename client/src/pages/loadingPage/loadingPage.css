@@ -1,0 +1,38 @@
+body{
+  background-image: url("../../images/cow.png") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.loading-page {
+    display:flex;
+    flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     padding-top: 150px;
+     padding-bottom: 10px;
+     overflow: auto;
+     color:white;
+    /*  background-image: url("../../images/cow.png") ;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 100vh; */
+}
+
+/* .wait-transparent-box{
+  background-color:rgba(78, 91, 95, 0.548);
+  margin-right: 35px;
+  margin-left: 35px;
+  padding-bottom: calc(10px + 2vh);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transform: translateY(10px);
+  font-family: Helvetica;
+} */
+
+.loader-please-work-for-the-love-of-everything{
+    
+    color:white;
+}

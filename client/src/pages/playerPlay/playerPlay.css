@@ -1,0 +1,42 @@
+.loading-player {
+  height: 100vh;
+  overflow: auto;
+  background-image: url("../../images/cow.png") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  align-items: top;
+  justify-content: flex-start;
+ 
+}
+
+@font-face{
+  font-family: warden;
+  src: url("../../fonts/Warden\ Typeface.otf");
+}
+
+.contents{
+  padding-top: 25px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(20px + 2vw);
+  color: white;
+  line-height: 2;
+  font-family: warden;
+  
+}
+
+.playerplay-transparent-box{
+  background-color:rgba(78, 91, 95, 0.548);
+  margin-right: 35px;
+  margin-left: 35px;
+  padding-bottom: calc(200px + 2vh);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transform: translateY(50px);
+  font-family: Helvetica;
+}
+

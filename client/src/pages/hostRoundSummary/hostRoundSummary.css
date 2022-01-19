@@ -1,0 +1,222 @@
+@font-face{
+  font-family: warden;
+  src: url("../../fonts/Warden\ Typeface.otf");
+}
+.host-results-screen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.15;
+    color: #FFFFFF;
+    background-image: url("../../images/cow.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    
+    
+}
+.round-header{
+  padding-top: calc(5px + 2vh);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  /* padding-left: calc(100px + 1vw);  */
+  font-size: calc(20px + 2vw);
+  color: white;
+  line-height: 2;
+  font-family: warden;
+  font-weight: bold;
+}
+.result-list{
+    padding-bottom:30px;
+}
+
+
+.host-buttons{
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.table {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  margin-left: auto; 
+  margin-right: auto;
+  background-color:#f2f2f2;
+  table-layout:fixed;
+  width:100%;
+  
+
+  
+
+}
+
+.table td {
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 3px;
+}
+
+
+
+.table tbody {
+  font-size: 20px;
+  text-align: center;
+  color:black;
+  background-color: white;
+}
+
+
+.table th,
+.table thead {
+  background-color: #f2f2f2;
+  padding: 3px;
+  text-align: center;
+  color: black;
+  border: 1px solid #ddd;
+  font-size: 20px;
+}
+.table tr:hover {
+  background-color:lightgray;
+}
+
+
+  * {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .table__wrapper {
+    width: 100%;
+  }
+  
+  .table__wrapper .table {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  
+  /* ------- Presentational Formatting --------- */
+  
+  .tabcenter {
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  .table {
+    border: 1px solid #f0f0f0;
+    border-collapse: collapse;
+  }
+  
+  .table tr {
+    border-bottom: 1px solid #f0f0f0;
+  }
+  
+  .table thead tr {
+    border-bottom: 2px solid #f0f0f0;
+  }
+  
+  .table td,
+  .table th {
+    padding: .5em;
+  }
+  
+  .table th {
+    text-align: center;
+    font-size: calc(10px+2vh);
+  }
+  
+  @media screen and (max-width:991px) {
+    .table {
+      margin: 0 auto;
+      width: 100%;
+      border-spacing: 0;
+    }
+    .table thead {
+      position: absolute;
+      clip: rect(1px, 1px, 1px, 1px);
+      padding: 0;
+      border: 0;
+      height: 1px;
+      width: 1px;
+      overflow: hidden;
+    }
+    .table tbody,
+    .table tr,
+    .table th,
+    .table td {
+      display: block;
+      padding: 0;
+      text-align: center;
+      white-space: normal;
+    }
+    .table tr td,
+    .table tr th {
+      /* padding: 2em 1em; */
+      vertical-align: middle;
+      overflow: hidden;
+      position: relative;
+      vertical-align: top;
+      border: 1px solid #EDF0F1;
+      border-top: none;
+      width: 100%;
+      white-space: normal;
+    }
+    .table th, td[scope="row"] {
+      width: 100%;
+      text-align: center;
+      display: block;
+      background-color: #f2f2f2;
+      margin: 0 auto;
+      padding: .5em 0;
+    }
+    .table td[data-header]:before {
+      content: attr(data-header);
+      display: block;
+      float: left;
+      width: 50%;
+      color: #000000;
+      font-weight: bold;
+      text-align: left;
+    }
+    .table td[data-header] > * {
+      display: block;
+      width: 50%;
+      float: right;
+      clear: right;
+      padding-left: 1em;
+      margin-top: 0;
+    }
+    .table td[data-header]:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 50%;
+      border-right: 1px solid #EDF0F1;
+      padding-bottom: 200%;
+      display: block;
+    }
+    
+  }
+  
+  @media screen and (max-width: 600px) {
+    .tabcenter {
+      width: 100%;
+    }
+  }
+
+  .host-results-box{
+    background-color:rgba(78, 91, 95, 0.548);
+    margin-left: 5%;
+    margin-right:5%;
+   /*  width: 75%; */
+   
+  }
+  
+ 
+  

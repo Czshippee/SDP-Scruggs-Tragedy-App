@@ -1,0 +1,133 @@
+ .whole-dashboard{
+  background-image: url("../../images/cow.png") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+     flex-direction: column;
+     align-items: top;
+     justify-content: flex-start;
+     height: 100vh;
+     overflow: scroll;
+     
+
+} 
+
+.host-dashboard-transparent-box{
+  background-color:rgba(78, 91, 95, 0.548);
+  margin-right: 35px;
+  margin-left: 35px;
+  padding-bottom: calc(100px + 2vh);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transform: translateY(50px);
+  font-family: Helvetica;
+}
+
+
+
+.text1 {
+  /* background-color: #282c34; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1.5vw);
+  color: white;
+  line-height: 2;
+  font-family: sans-serif;
+ 
+}
+
+@font-face{
+  font-family: warden;
+  src: url("../../fonts/Warden\ Typeface.otf");
+}
+
+.title1 {
+  /* background-color: #282c34; */
+  padding-top: 10px;
+  padding-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vw);
+  color: white;
+  
+  font-family: Helvetica;
+ 
+}
+
+.title2 {
+  /* background-color: #282c34; */
+  padding-top: 10px;
+  padding-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vw);
+  color: white;
+  line-height: 2;
+  font-family: Helvetica;
+ 
+}
+
+
+.timer{
+    padding-right: 75px;
+}
+.playerSubmit{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vw);
+    color: white;
+    line-height: 2;
+    font-family: sans-serif;
+   
+}
+
+.ERButton{
+  display: flex;
+  
+  align-items: top;
+  justify-content: center;
+  padding-top: 50px;
+  /* margin:auto; */
+}
+
+.EGButton{
+    display: flex;
+  
+  align-items: top;
+  justify-content: center;
+ /*  padding-right: 400px;
+  padding-left: 400px; */
+  padding-top: 50px;
+  /* margin-left:auto;
+  margin-right:auto; */
+}
+
+
+.plist-dashboard{
+  padding-top:40px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: calc(13px + 2vw);
+  line-height: 2;
+  font-family: Helvetica;
+  overflow-y: auto;
+  height: 150px;
+  vertical-align: top;
+  -ms-overflow-style: none;
+  scrollbar-width: 1000px;
+  text-align: center;
+}
+
+.plist-dashboard::webkit-scrollbar{
+  display: none;
+}

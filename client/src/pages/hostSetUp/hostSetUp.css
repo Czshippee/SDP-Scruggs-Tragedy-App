@@ -1,0 +1,180 @@
+.home {
+  color: mediumseagreen
+}
+
+.all-encompassing{
+  flex-direction: column;
+     align-items: top;
+     justify-content: flex-start;
+     height: 100vh;
+     background-image: url("../../images/cow.png") ;
+     background-repeat: no-repeat;
+     background-size: cover;
+     overflow-x: hidden;
+}
+
+.Host-header {
+  
+  padding-top: 25px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-size: 45px ;
+  color: white;
+  line-height: 2;
+  font-family: warden;
+  font-weight: bold;
+}
+
+.modal{
+  /* background-color: #282c34; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 50px;
+}
+
+.gen-game{
+
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding-top: 40px;
+}
+
+.back-buttom{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding-top: 30px;
+}
+
+@font-face{
+  font-family: warden;
+  src: url("../../fonts/Warden\ Typeface.otf");
+}
+
+.host-set-up-transparent-box{
+  background-color:rgba(78, 91, 95, 0.548);
+  margin-right: 35px;
+  margin-left: 35px;
+  padding-bottom: calc(8px + 2vh);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transform: translateY(50px);
+  font-family: Helvetica;
+}
+
+
+@media only screen and (max-device-width: 1224px) {
+  .host-set-up-transparent-box {margin-right:0px; margin-left:0px; transform: 0;}
+
+    
+}
+
+.Pin-bar{
+ 
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.Max-player-bar{
+ 
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-top: 25px;
+}
+
+.Time-Btw-Moves-bar{
+
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  /* font-size: 20px; */
+  color: white;
+
+}
+
+.Optimal-Pasture-Resources-bar{
+
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+}
+
+
+.toggle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.toggle2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Buttom-inverted{
+justify-content: center;
+align-items: center;
+padding-top: 30px;
+display: flex;
+}
+
+.Rolling-counter{
+display: flex;
+justify-content: center;
+padding-top: 20px;
+}
+
+.form-text{
+  font-size: calc(20px - .1vw);
+}
+@media only screen and (min-device-width: 1224px) {
+  .formElem{
+    display:block;
+    justify-self: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* width: calc(670px-.6vw);  */
+  }
+ 
+}
+.label-text{
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+  padding-right: 10px;
+  display: inline;
+  }
+@media only screen and (min-device-width: 1224px) and (max-width: 893px){
+  .formElem{
+    display:block;
+    justify-self: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    /* width: calc(670px-.6vw);  */
+  }
+    
+    
+  
+}
+
+
+
+.Rosource-Per-Play-bar{
+justify-content: center;
+padding-top: 20px;
+}
+
+

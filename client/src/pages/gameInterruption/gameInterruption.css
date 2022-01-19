@@ -1,0 +1,33 @@
+.game-interruption {
+  background-image: url("../../images/cow.png") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: calc(10px + 3vw);
+  color: white;
+  line-height: 2;
+  font-family: Helvetica;
+  align-items: top;
+  justify-content: center;
+  padding-top: 25px;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.return-homepage {
+  
+   
+    padding-top: 125px;
+  }
+
+  .interruption-transparent-box{
+    background-color:rgba(78, 91, 95, 0.548);
+    padding-bottom: calc(50px - 1vw);
+    margin-right: 23px;
+    margin-left: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translateY(50px);
+    font-family: Helvetica;
+    align-items: center;
+  }
